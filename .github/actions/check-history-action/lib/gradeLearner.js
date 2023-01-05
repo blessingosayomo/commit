@@ -19,7 +19,7 @@ module.exports = async () => {
         recursive: 1,
       });
 
-      if (tree.data.tree.some((t) => t.path === ".env")) badSHAs.push(sha);
+      if 
     }
 
     if (badSHAs.length === 0) {
